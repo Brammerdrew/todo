@@ -8,7 +8,7 @@ export default function DataLoop({ todo, checkBox }) {
     return (
         <div className='flex-column'>
             <label className='flex-row'>
-            <input type="checkbox" check={todo.isComplete} onChange={changeCheckBox} />
+            <input type="checkbox" check={todo.isComplete} onChange={changeCheckbox} />
             { todo.name }
             </label>
         </div>

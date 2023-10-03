@@ -3,8 +3,10 @@ import DataLoop from './DataLoop'
 
 export default function TodoList({ todos, checkBox }) {
     return (
-        todos.map( todo => {
-            return <DataLoop key={todo.id} checkBox= {checkBox} todo={todo} />
-        })
-    )
+        <div>
+        {todos.map( todo => (
+             <DataLoop key={todo.id} checkBox={checkBox} todo={todo} />
+        ))}
+        </div>
+    );
 }

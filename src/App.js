@@ -1,5 +1,5 @@
 import React, {useState, useRef} from "react";
-import  {TodoList}  from './TodoList'
+import  TodoList  from './TodoList'
 import { v4 as uuidv4} from 'uuid';
 import './app.css';
 
